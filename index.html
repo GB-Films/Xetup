@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Xetup: videojuegos y software con identidad propia." />
+    <title>Xetup — Videojuegos y Software</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#videojuegos" aria-label="Xetup, volver al inicio">
+          <img class="brand-mark" src="assets/xetup-isotipo.png" alt="" />
+          <span class="brand-name">XETUP</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegación principal">
+          <a href="#videojuegos">Videojuegos</a>
+          <a href="#software">Software</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span>
+          <span class="sr-only">Abrir menú</span>
+        </button>
+      </header>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#videojuegos">Videojuegos</a>
+        <a href="#software">Software</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <main>
+        <section class="games-hero" id="videojuegos">
+          <div class="games-backdrop" aria-hidden="true"></div>
+          <div class="games-pattern" aria-hidden="true"></div>
+
+          <div class="games-hero-content">
+            <figure class="game-showcase">
+              <div class="game-circle">
+                <img class="game-art is-active" data-game-art="cursed" src="assets/cursed-mansion.png" alt="Mansión embrujada de Cursed bajo una luna llena" width="1672" height="941" />
+                <img class="game-art" data-game-art="bumper" src="assets/bumper-balls.png" alt="Personajes y logo de Bumper Balls" width="460" height="215" aria-hidden="true" />
+              </div>
+              <figcaption id="game-caption">Cursed</figcaption>
+            </figure>
+
+            <div class="games-copy">
+              <p class="eyebrow">LOS VIDEOJUEGOS DE XETUP</p>
+              <div class="game-details" id="game-details" aria-live="polite" aria-atomic="true">
+                <p class="game-status">EN DESARROLLO</p>
+                <h1 id="game-title">Cursed</h1>
+                <p class="hero-description" id="game-description">Un mundo extraño está despertando.</p>
+              </div>
+
+              <div class="game-selector" role="group" aria-label="Seleccionar videojuego">
+                <button class="game-choice is-active" type="button" data-game="cursed" aria-pressed="true" aria-controls="game-details" aria-label="Seleccionar Cursed">
+                  <span class="game-choice-icon"><img src="assets/cursed-mansion.png" alt="" /></span>
+                  <span class="game-choice-name">Cursed</span>
+                </button>
+                <button class="game-choice" type="button" data-game="bumper" aria-pressed="false" aria-controls="game-details" aria-label="Seleccionar Bumper Balls">
+                  <span class="game-choice-icon"><img src="assets/bumper-balls.png" alt="" /></span>
+                  <span class="game-choice-name">Bumper Balls</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-scroll">
+            <span>SCROLL PARA DESCUBRIR SOFTWARE</span>
+            <a href="#software" aria-label="Bajar a la sección de software"><span></span></a>
+          </div>
+        </section>
+
+        <section class="software-section" id="software">
+          <div class="software-pattern" aria-hidden="true"></div>
+          <div class="software-content">
+            <div class="section-label reveal"><span>02</span> SOFTWARE</div>
+            <div class="software-heading reveal reveal-delay">
+              <p class="eyebrow">La otra cara de Xetup</p>
+              <h2>Software<br /><em>para hacer.</em></h2>
+              <p>Herramientas y productos digitales para convertir ideas en algo que funciona.</p>
+            </div>
+            <div class="software-empty reveal reveal-delay-two">
+              <span class="empty-signal">✦</span>
+              <div>
+                <span class="software-kicker">CATÁLOGO XETUP / 000</span>
+                <h3>Próximamente.</h3>
+                <p>Estamos preparando esta señal. Acá van a vivir nuestros softwares.</p>
+              </div>
+              <span class="empty-code">NEXT<br />IDEA</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contacto">
+        <span>© <span id="year"></span> XETUP</span>
+        <span>VIDEOJUEGOS / SOFTWARE</span>
+        <a href="mailto:hola@xetup.com">hola@xetup.com</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
