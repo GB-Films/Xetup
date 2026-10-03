@@ -20,7 +20,7 @@ button { color: inherit; font: inherit; }
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
 
 .site-shell { overflow: hidden; }
-.site-header { position: absolute; z-index: 20; top: 0; left: 0; display: flex; width: 100%; align-items: center; justify-content: space-between; padding: 25px clamp(22px, 4vw, 64px); background: #101014; border-bottom: 1px solid rgba(255,255,255,.06); }
+.site-header { position: absolute; z-index: 20; top: 0; left: 0; display: flex; width: 100%; align-items: center; justify-content: space-between; padding: 25px clamp(22px, 4vw, 64px); background: transparent; border: 0; }
 .brand { display: inline-flex; align-items: center; gap: 12px; }
 .brand-mark { width: 28px; height: 28px; object-fit: contain; filter: invert(1); }
 .brand-name { font-size: 19px; font-weight: 700; letter-spacing: -.1em; }
