@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Xetup: videojuegos y software con identidad propia." />
-    <title>Xetup — Videojuegos y Software</title>
+    <meta name="description" content="Los videojuegos de Xetup: Cursed, Bumper Balls y más juegos. Jugá Casting para ser Mujer en tu navegador." />
+    <title>Xetup — Videojuegos</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,8 +17,8 @@
         </a>
 
         <nav class="desktop-nav" aria-label="Navegación principal">
-          <a href="#videojuegos">Videojuegos</a>
-          <a href="#software">Software</a>
+          <a href="#videojuegos">Principales</a>
+          <a href="#mas-juegos">Más juegos</a>
           <a href="#contacto">Contacto</a>
         </nav>
 
@@ -29,8 +29,8 @@
       </header>
 
       <div class="mobile-menu" id="mobile-menu">
-        <a href="#videojuegos">Videojuegos</a>
-        <a href="#software">Software</a>
+        <a href="#videojuegos">Principales</a>
+        <a href="#mas-juegos">Más juegos</a>
         <a href="#contacto">Contacto</a>
       </div>
 
@@ -49,7 +49,7 @@
             </figure>
 
             <div class="games-copy">
-              <p class="eyebrow">LOS VIDEOJUEGOS DE XETUP</p>
+              <p class="eyebrow">NUESTROS JUEGOS PRINCIPALES</p>
               <div class="game-details" id="game-details" aria-live="polite" aria-atomic="true">
                 <p class="game-status">EN DESARROLLO</p>
                 <h1 id="game-title">Cursed</h1>
@@ -70,28 +70,38 @@
           </div>
 
           <div class="hero-scroll">
-            <span>SCROLL PARA DESCUBRIR SOFTWARE</span>
-            <a href="#software" aria-label="Bajar a la sección de software"><span></span></a>
+            <span>SCROLL PARA DESCUBRIR MÁS JUEGOS</span>
+            <a href="#mas-juegos" aria-label="Bajar a la sección de más juegos"><span></span></a>
           </div>
         </section>
 
-        <section class="software-section" id="software">
-          <div class="software-pattern" aria-hidden="true"></div>
-          <div class="software-content">
-            <div class="section-label reveal"><span>02</span> SOFTWARE</div>
-            <div class="software-heading reveal reveal-delay">
-              <p class="eyebrow">La otra cara de Xetup</p>
-              <h2>Software<br /><em>para hacer.</em></h2>
-              <p>Herramientas y productos digitales para convertir ideas en algo que funciona.</p>
-            </div>
-            <div class="software-empty reveal reveal-delay-two">
-              <span class="empty-signal">✦</span>
+        <section class="more-games-section" id="mas-juegos" aria-labelledby="more-games-title">
+          <div class="more-games-pattern" aria-hidden="true"></div>
+          <div class="more-games-content">
+            <div class="section-label reveal"><span>02</span> MÁS JUEGOS</div>
+            <div class="more-games-heading reveal reveal-delay">
               <div>
-                <span class="software-kicker">CATÁLOGO XETUP / 000</span>
-                <h3>Próximamente.</h3>
-                <p>Estamos preparando esta señal. Acá van a vivir nuestros softwares.</p>
+                <p class="eyebrow">Otras formas de jugar</p>
+                <h2 id="more-games-title">Más juegos.<br /><em>Más diversión.</em></h2>
               </div>
-              <span class="empty-code">NEXT<br />IDEA</span>
+              <p>Experiencias más pequeñas, nuevas ideas y otras formas de jugar. También son parte de Xetup.</p>
+            </div>
+            <div class="small-games-list">
+              <article class="small-game-card reveal reveal-delay-two" aria-labelledby="casting-title">
+                <div class="small-game-preview">
+                  <img src="assets/casting-preview.png" alt="Pantalla de inicio de Casting para ser Mujer, con su protagonista y la escenografía del rodaje" width="1280" height="720" loading="lazy" />
+                </div>
+                <div class="small-game-copy">
+                  <p class="small-game-status">DISPONIBLE · NAVEGADOR</p>
+                  <h3 id="casting-title">Casting<br />para ser Mujer</h3>
+                  <p class="small-game-description">Un casting se convierte en un rodaje caótico. Un juego de acción lateral con tres tomas y un jefe final.</p>
+                  <ul class="small-game-tags" aria-label="Características de Casting">
+                    <li>Acción lateral</li>
+                    <li>PC + celular</li>
+                  </ul>
+                  <a class="small-game-play" href="https://casting-gb-films.web.app/" target="_blank" rel="noopener noreferrer" aria-label="Jugar Casting para ser Mujer (se abre en otra pestaña)">Jugar ahora <span aria-hidden="true">↗</span></a>
+                </div>
+              </article>
             </div>
           </div>
         </section>
@@ -99,7 +109,7 @@
 
       <footer class="site-footer" id="contacto">
         <span>© <span id="year"></span> XETUP</span>
-        <span>VIDEOJUEGOS / SOFTWARE</span>
+        <span>VIDEOJUEGOS</span>
         <a href="mailto:hola@xetup.com">hola@xetup.com</a>
       </footer>
     </div>

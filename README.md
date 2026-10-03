@@ -1,6 +1,8 @@
 # Xetup
 
-Página principal de Xetup con un selector de videojuegos (Cursed y Bumper Balls) y la sección de software debajo.
+Una sola página de videojuegos de Xetup: Cursed y Bumper Balls como juegos principales, con su selector de imágenes y descripción. Al bajar aparece «Más juegos», el espacio para experiencias más pequeñas, con Casting para ser Mujer y un enlace a su versión pública. No hay sección de software ni páginas separadas.
+
+Casting se encuentra en https://github.com/GB-Films/CASTING y se juega en https://casting-gb-films.web.app/. Su tarjeta utiliza una captura real de la pantalla de inicio; el juego no se copia ni se modifica en este proyecto.
 
 ## Publicación
 
@@ -10,4 +12,4 @@ La publicación usa GitHub Pages. En **Settings → Pages → Build and deployme
 
 El flujo incluye únicamente `index.html`, `styles.css`, `script.js` y la carpeta `assets`. Las rutas de los recursos son relativas, compatibles con la ruta del proyecto en GitHub Pages.
 
-Dirección prevista, pendiente de publicar: https://gb-films.github.io/Xetup/
+Página pública: https://gb-films.github.io/Xetup/
