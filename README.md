@@ -2,7 +2,7 @@
 
 Una sola página de videojuegos de Xetup: Cursed y Bumper Balls como juegos principales, con su selector de imágenes y descripción. Al bajar aparece «Más juegos», el espacio para experiencias más pequeñas, con Casting para ser Mujer y un enlace a su versión pública. No hay sección de software ni páginas separadas.
 
-Casting se encuentra en https://github.com/GB-Films/CASTING y se juega en https://casting-gb-films.web.app/. Su tarjeta utiliza una captura real de la pantalla de inicio; el juego no se copia ni se modifica en este proyecto.
+Casting se encuentra en https://github.com/GB-Films/CASTING y se juega en https://casting-gb-films.web.app/. Su tarjeta utiliza la portada final de `CASTING/portada-casting-v6.png`, con los logos oficiales de Xetup y GB Films y el crédito de dirección en la caja del afiche. La portada se muestra completa, sin recortes, en escritorio y celular. El juego no se copia ni se modifica en este proyecto.
 
 ## Publicación
 
