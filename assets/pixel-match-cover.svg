@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720">
+  <rect width="480" height="720" fill="#f6d583"/>
+  <path d="M0 370 480 240v480H0Z" fill="#edb86a"/>
+  <g stroke="#2b314d" stroke-width="5">
+    <rect x="66" y="297" width="158" height="150" rx="18" fill="#a7ded1" transform="rotate(-9 145 372)"/>
+    <rect x="250" y="297" width="158" height="150" rx="18" fill="#eb87a6" transform="rotate(9 329 372)"/>
+    <rect x="66" y="473" width="158" height="150" rx="18" fill="#ae9bdc" transform="rotate(6 145 548)"/>
+    <rect x="250" y="473" width="158" height="150" rx="18" fill="#a7ded1" transform="rotate(-6 329 548)"/>
+  </g>
+  <g fill="#2b314d">
+    <path d="M111 352h16v-16h32v16h16v32h-16v16h-32v-16h-16Zm191 186h16v-16h32v16h16v32h-16v16h-32v-16h-16Z"/>
+    <path d="M292 350h18v-18h18v18h18v-18h18v18h18v36h-18v18h-18v18h-18v-18h-18v-18h-18Z"/>
+    <path d="M127 513h36v18h18v36h-18v18h-36v-18h-18v-36h18Zm0 18v36h36v-36Z" fill-rule="evenodd"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#2b314d">
+    <text x="240" y="65" font-size="14" letter-spacing="6">MEMORIA / CONCEPTO</text>
+    <text x="240" y="165" font-size="78" font-weight="900" letter-spacing="-5">PIXEL</text>
+    <text x="240" y="240" font-size="78" font-weight="900" letter-spacing="-5">MATCH</text>
+    <text x="240" y="668" font-size="14" letter-spacing="3">DOS FICHAS. UNA CONEXIÓN.</text>
+    <text x="240" y="702" font-size="10" letter-spacing="3" opacity=".7">XETUP · EJEMPLO DE CATÁLOGO</text>
+  </g>
+</svg>

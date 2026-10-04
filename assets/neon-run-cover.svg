@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#080d27"/><stop offset="1" stop-color="#322168"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#14dfed"/><stop offset="1" stop-color="#6744ff"/></linearGradient>
+  </defs>
+  <rect width="480" height="720" fill="url(#sky)"/>
+  <circle cx="240" cy="328" r="109" fill="#ec3bb0" opacity=".75"/>
+  <path d="M0 420V292h40v52h36v-120h49v195h28v-85h40v98m287-12V261h-42v78h-41V197h-45v225h-31v-67h-44v89" fill="#0b0c24"/>
+  <path d="M0 720 218 413h44L480 720Z" fill="#0a0c22"/>
+  <g stroke="url(#road)" stroke-width="3" fill="none"><path d="M40 720 227 413M440 720 253 413M162 720 237 413M318 720 243 413"/><path d="M145 525h190M93 595h294M30 680h420"/></g>
+  <g fill="#14dfed"><path d="m236 531-14 44 15 12 18-22-6-32z"/><path d="m226 578-21 56h10l28-47z"/></g>
+  <path d="m244 568 30 47 9-4-23-48" fill="#f039bb"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#effcff">
+    <text x="240" y="65" font-size="14" letter-spacing="6">ARCADE / CONCEPTO</text>
+    <text x="240" y="166" font-size="84" font-weight="900" letter-spacing="-5">NEON</text>
+    <text x="240" y="245" font-size="84" font-weight="900" letter-spacing="-5" fill="#14dfed">RUN</text>
+    <text x="240" y="677" font-size="14" letter-spacing="4">NO PARES DE CORRER.</text>
+    <text x="240" y="702" font-size="10" letter-spacing="3" opacity=".65">XETUP · EJEMPLO DE CATÁLOGO</text>
+  </g>
+</svg>
