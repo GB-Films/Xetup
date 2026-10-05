@@ -30,6 +30,7 @@ h1, h2, p { margin: 0; }
 .game-card { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid #ffffff12; border-radius: 8px; background: #141d3c; box-shadow: 0 14px 36px #02061635; }
 .game-cover { position: relative; isolation: isolate; display: grid; min-width: 0; width: 100%; aspect-ratio: 2 / 3; max-height: min(400px, calc(100svh - 330px)); min-height: 120px; place-items: center; overflow: hidden; background: #080c1c; }
 .game-cover > img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+.casting-cover { padding: 10px; background: #0d142a; }
 .game-copy { display: flex; min-width: 0; flex: 1; flex-direction: column; padding: clamp(14px, 1.4vw, 20px); }
 .game-status { margin-bottom: 10px; color: #b5bdda; font: 9px/1.5 var(--mono); letter-spacing: .07em; }
 .game-status.is-available { color: #57dde5; }

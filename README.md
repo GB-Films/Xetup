@@ -6,6 +6,8 @@ Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada fina
 
 El favicon conserva el isotipo original blanco sobre un fondo oscuro.
 
+La portada de Casting mantiene su borde claro original y se muestra con un margen interior oscuro de 10 px en los cuatro lados, para que no quede pegado al borde de la tarjeta. El afiche, sus logos y sus créditos no se modifican.
+
 Bumper Balls usa la cápsula vertical oficial `CapsulaBiblioteca_v02.png`, copiada sin alteraciones a `assets/bumper-balls-cover-v2.png` (600 × 900). Cursed usa `assets/cursed-cover-v1.png` (1024 × 1536), generada con la herramienta integrada a partir de la referencia original de la mansión, con composición vertical y el título CURSED. El prompt se conserva en `assets/cursed-cover-v1-prompt.txt`. Las portadas originales horizontales se conservan; las nuevas se muestran completas con `object-fit: contain`.
 
 ## Publicación
