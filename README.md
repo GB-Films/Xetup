@@ -39,3 +39,5 @@ Actualización v4: nueva portada 3D en assets/bunner-cover-v3.png; selector pers
 Versión web v5: menú principal con selección de modo, personaje y récords; aventura de 10 niveles en preparación y accesos desde la pantalla de derrota.
 
 Versión web v6: indicadores compactos de zanahorias, vidas y supersalto arriba a la izquierda; sin nombre ni etiqueta día/noche en la partida.
+
+Versión web v7: terreno y arbustos cercanos con texturas de maqueta 3D, relieve y sombras, adaptados a día/noche.
