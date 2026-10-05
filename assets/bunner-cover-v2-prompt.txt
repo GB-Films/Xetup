@@ -1,0 +1,5 @@
+Method: Built-in image generation edit tool. Generated on 2026-10-04.
+Reference: bunner-cover-v1.png, based on the actual game's rabbit and forest assets.
+Purpose: Keep the title within the safe area of a centered 9:16 cover crop.
+
+Edit this BUNNER portrait game cover minimally. Preserve the exact forest illustration, happy orange-brown rabbit character, carrots, colors, composition, and all artwork. Only resize the BUNNER title horizontally to occupy at most 70% of the entire image width, centered at the same vertical position, keeping its bold cream-yellow cartoon lettering and dark brown outline. This image will be displayed with a centered 9:16 crop of a 2:3 original: the leftmost and rightmost 8% will be cropped, so leave at least 15% empty margin on BOTH sides of all lettering including its outline. Fill any exposed area around the resized title seamlessly with the existing forest background. Exact text BUNNER, no additional text, no logos, no border. Portrait 1024x1536.
