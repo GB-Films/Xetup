@@ -30,6 +30,8 @@ jobs:
           mkdir -p _site
           cp index.html styles.css script.js _site/
           cp -R assets _site/assets
+          mkdir -p _site/bunner
+          unzip -q assets/bunner-web-v1.zip -d _site/bunner
       - name: Subir sitio
         uses: actions/upload-pages-artifact@v4
         with:
