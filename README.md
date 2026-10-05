@@ -1,8 +1,10 @@
 # Xetup
 
-Una sola pantalla para los cinco videojuegos de Xetup: Cursed, Bumper Balls, Casting para ser Mujer, NOK y El Conejo Norberto. Todas las tarjetas aparecen juntas sobre el fondo azul en escritorio; en pantallas más pequeñas se recorren horizontalmente con gestos, botones o teclado. No hay portada circular, sección inferior, juegos ficticios ni sección de software.
+Una sola pantalla para los cinco videojuegos de Xetup: Cursed, Bumper Balls, Casting para ser Mujer, NOK y BUNNER (El Conejo Norberto). Todas las tarjetas aparecen juntas sobre el fondo azul en escritorio; en pantallas más pequeñas se recorren horizontalmente con gestos, botones o teclado. No hay portada circular, sección inferior, juegos ficticios ni sección de software.
 
-Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada final de CASTING/portada-casting-v6.png, con los logos oficiales. Todas las portadas llenan bloques de proporción 9:16 con `object-fit: cover` y recorte centrado, sin franjas ni márgenes interiores. NOK usa la portada entregada por el usuario en `assets/nok-cover.png`; su descripción sigue pendiente. El Conejo Norberto tiene portada y descripción pendientes; no se inventan enlaces de juego ni disponibilidad.
+Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada final de CASTING/portada-casting-v6.png, con los logos oficiales. Todas las portadas llenan bloques de proporción 9:16 con `object-fit: cover` y recorte centrado, sin franjas ni márgenes interiores. NOK usa la portada entregada por el usuario en `assets/nok-cover.png`; su descripción sigue pendiente. No se inventan enlaces de juego ni disponibilidad.
+
+BUNNER es el juego del Conejo Norberto del repositorio GB-Films/BUNNER, no un sexto juego. Su portada vertical `assets/bunner-cover-v2.png` (1024 × 1536) fue generada con la herramienta integrada usando el personaje y el bosque originales del proyecto como referencias. La segunda versión deja margen lateral al título para el recorte 9:16. Los prompts y las referencias se conservan en `assets/bunner-cover-v1-prompt.txt` y `assets/bunner-cover-v2-prompt.txt`. La descripción refleja el juego real: saltar obstáculos y recoger zanahorias. El botón sigue deshabilitado porque https://gb-films.github.io/BUNNER/ devolvía 404 al comprobarlo el 4 de octubre de 2026; activar el enlace solo después de verificar una publicación pública operativa.
 
 El favicon conserva el isotipo original blanco sobre un fondo oscuro.
 
