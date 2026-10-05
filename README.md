@@ -2,13 +2,13 @@
 
 Una sola pantalla para los cinco videojuegos de Xetup: Cursed, Bumper Balls, Casting para ser Mujer, NOK y El Conejo Norberto. Todas las tarjetas aparecen juntas sobre el fondo azul en escritorio; en pantallas más pequeñas se recorren horizontalmente con gestos, botones o teclado. No hay portada circular, sección inferior, juegos ficticios ni sección de software.
 
-Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada final de CASTING/portada-casting-v6.png, con los logos oficiales. Las imágenes se muestran completas, sin recortes. NOK y El Conejo Norberto tienen sus nombres confirmados y portadas/descripciones pendientes; no se inventan enlaces de juego ni disponibilidad.
+Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada final de CASTING/portada-casting-v6.png, con los logos oficiales. Todas las portadas llenan bloques de proporción 9:16 con `object-fit: cover` y recorte centrado, sin franjas ni márgenes interiores. NOK usa la portada entregada por el usuario en `assets/nok-cover.png`; su descripción sigue pendiente. El Conejo Norberto tiene portada y descripción pendientes; no se inventan enlaces de juego ni disponibilidad.
 
 El favicon conserva el isotipo original blanco sobre un fondo oscuro.
 
-La portada de Casting mantiene su borde claro original y se muestra con un margen interior oscuro de 10 px en los cuatro lados, para que no quede pegado al borde de la tarjeta. El afiche, sus logos y sus créditos no se modifican.
+La portada de Casting ocupa todo el bloque hasta sus bordes redondeados. El recorte puede ocultar las líneas claras del afiche; el archivo original no se modifica.
 
-Bumper Balls usa la cápsula vertical oficial `CapsulaBiblioteca_v02.png`, copiada sin alteraciones a `assets/bumper-balls-cover-v2.png` (600 × 900). Cursed usa `assets/cursed-cover-v1.png` (1024 × 1536), generada con la herramienta integrada a partir de la referencia original de la mansión, con composición vertical y el título CURSED. El prompt se conserva en `assets/cursed-cover-v1-prompt.txt`. Las portadas originales horizontales se conservan; las nuevas se muestran completas con `object-fit: contain`.
+Bumper Balls usa la cápsula vertical oficial `CapsulaBiblioteca_v02.png`, copiada sin alteraciones a `assets/bumper-balls-cover-v2.png` (600 × 900). Cursed usa `assets/cursed-cover-v1.png` (1024 × 1536), generada con la herramienta integrada a partir de la referencia original de la mansión, con composición vertical y el título CURSED. El prompt se conserva en `assets/cursed-cover-v1-prompt.txt`. Los archivos originales se conservan; el ajuste y el recorte se realizan únicamente al mostrarlos en la página.
 
 ## Publicación
 

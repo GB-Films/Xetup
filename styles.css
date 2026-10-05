@@ -28,9 +28,8 @@ h1, h2, p { margin: 0; }
 .catalog { display: flex; min-width: 0; width: 100%; flex: 1; flex-direction: column; justify-content: center; gap: 18px; padding: 16px clamp(20px, 4vw, 64px); }
 .game-cards { display: grid; width: min(1560px, 100%); grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(12px, 1.5vw, 24px); margin: 0 auto; }
 .game-card { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid #ffffff12; border-radius: 8px; background: #141d3c; box-shadow: 0 14px 36px #02061635; }
-.game-cover { position: relative; isolation: isolate; display: grid; min-width: 0; width: 100%; aspect-ratio: 2 / 3; max-height: min(400px, calc(100svh - 330px)); min-height: 120px; place-items: center; overflow: hidden; background: #080c1c; }
-.game-cover > img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; }
-.casting-cover { padding: 10px; background: #0d142a; }
+.game-cover { position: relative; isolation: isolate; display: grid; min-width: 0; width: 100%; aspect-ratio: 9 / 16; place-items: center; overflow: hidden; background: #080c1c; }
+.game-cover > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .game-copy { display: flex; min-width: 0; flex: 1; flex-direction: column; padding: clamp(14px, 1.4vw, 20px); }
 .game-status { margin-bottom: 10px; color: #b5bdda; font: 9px/1.5 var(--mono); letter-spacing: .07em; }
 .game-status.is-available { color: #57dde5; }
@@ -41,7 +40,7 @@ h1, h2, p { margin: 0; }
 .game-play:disabled { background: #ffffff07; color: #9aa6c7; cursor: default; }
 .is-placeholder { border-style: dashed; background: #101831a6; box-shadow: none; }
 .placeholder-cover { background: radial-gradient(circle at 50% 40%, #293761, #111a36 70%); }
-.placeholder-cover > img { width: 28%; height: auto; filter: invert(1); opacity: .22; }
+.placeholder-cover > img { position: static; width: 28%; height: auto; object-fit: contain; filter: invert(1); opacity: .22; }
 .placeholder-cover > span { position: absolute; right: 20px; bottom: 15px; color: #c4cbed38; font: 12px var(--mono); letter-spacing: .15em; }
 .is-placeholder .game-status { color: #91a0c0; }
 .is-placeholder .game-copy h2 { color: #c2cbe1; }
@@ -54,7 +53,6 @@ a:focus-visible, button:focus-visible, .game-cards:focus-visible { outline: 2px 
   .game-cards { display: flex; gap: 18px; padding: 0 24px 8px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: 24px; scrollbar-width: none; }
   .game-cards::-webkit-scrollbar { display: none; }
   .game-card { flex: 0 0 min(36vw, 300px); scroll-snap-align: start; }
-  .game-cover { max-height: min(350px, calc(100svh - 470px)); }
   .game-copy h2 { font-size: 24px; }
   .game-description { font-size: 14px; }
   .catalog-controls { display: flex; align-items: center; justify-content: center; gap: 24px; }
@@ -68,7 +66,6 @@ a:focus-visible, button:focus-visible, .game-cards:focus-visible { outline: 2px 
   .catalog { gap: 12px; padding-top: 8px; padding-bottom: 8px; }
   .game-cards { gap: 16px; padding-right: 20px; padding-left: 20px; scroll-padding-inline: 20px; }
   .game-card { flex-basis: min(82vw, 320px); }
-  .game-cover { max-height: min(340px, calc(100svh - 390px)); }
   .game-copy { padding: 16px; }
   .game-copy h2 { min-height: 2.25em; font-size: 23px; margin-bottom: 10px; }
   .game-description { min-height: 3em; margin-bottom: 14px; font-size: 13px; }
@@ -77,7 +74,6 @@ a:focus-visible, button:focus-visible, .game-cards:focus-visible { outline: 2px 
 }
 @media (max-height: 560px) and (min-width: 601px) {
   .site-header { padding-top: 12px; padding-bottom: 12px; }
-  .game-cover { max-height: 145px; }
   .game-copy { padding: 12px; }
   .game-copy h2 { margin-bottom: 8px; font-size: 19px; }
   .game-description { margin-bottom: 10px; font-size: 12px; }
