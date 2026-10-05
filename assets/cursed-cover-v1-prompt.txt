@@ -1,0 +1,10 @@
+Generated with the built-in image generation tool.
+Reference: assets/cursed-mansion.png
+Output: assets/cursed-cover-v1.png (1024 x 1536)
+
+Use case: stylized-concept.
+Asset type: finished vertical 2:3 game cover for the Cursed card on Xetup's website.
+Input image 1: reference for the mansion, voxel art direction, character and palette, not a poster to crop.
+Primary request: generate a genuinely portrait composition of this same haunted mansion scene. Tall sinister Victorian mansion and its central tower dominate the middle of the cover, the small purple-cloaked voxel explorer holding an amber lantern stands in the foreground on the stone path, moon in purple foggy night sky, dark block-built trees framing the scene. Keep the architecture, explorer silhouette, cubic voxel/pixel 3D materials and mysterious mood faithful to the reference. Purple/navy night shadows and warm orange light in windows and lantern. Compose all important subjects to fit the vertical cover instead of using letterboxing or a stretched/cropped horizontal image.
+Text (verbatim): "CURSED", exactly once at the top, large legible pale ivory condensed gothic-serif title, with generous safe margins so it reads in a small catalog card. No tagline or other copy.
+Constraints: full-bleed portrait artwork, 2:3 aspect ratio, ideally 1024x1536. No extra characters, monsters, franchise branding, credits, watermarks, borders, mockup frame, or UI. Preserve the game's visual identity; polished cinematic game key art.
