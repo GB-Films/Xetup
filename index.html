@@ -3,139 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Los videojuegos de Xetup: Cursed, Bumper Balls y más juegos. Jugá Casting para ser Mujer en tu navegador." />
+    <meta name="description" content="Los videojuegos de Xetup: Cursed, Bumper Balls, Casting para ser Mujer, NOK y El Conejo Norberto." />
     <title>Xetup — Videojuegos</title>
     <link rel="icon" type="image/svg+xml" sizes="any" href="assets/favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="cursor-glow" aria-hidden="true"></div>
     <div class="site-shell">
+      <div class="site-pattern" aria-hidden="true"></div>
       <header class="site-header">
-        <a class="brand" href="#videojuegos" aria-label="Xetup, volver al inicio">
+        <a class="brand" href="#videojuegos" aria-label="Xetup, inicio">
           <img class="brand-mark" src="assets/xetup-isotipo.png" alt="" />
           <span class="brand-name">XETUP</span>
         </a>
-
-        <nav class="desktop-nav" aria-label="Navegación principal">
-          <a href="#videojuegos">Principales</a>
-          <a href="#mas-juegos">Más juegos</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
-          <span></span><span></span>
-          <span class="sr-only">Abrir menú</span>
-        </button>
+        <a class="contact-link" href="mailto:hola@xetup.com">Contacto <span aria-hidden="true">↗</span></a>
       </header>
 
-      <div class="mobile-menu" id="mobile-menu">
-        <a href="#videojuegos">Principales</a>
-        <a href="#mas-juegos">Más juegos</a>
-        <a href="#contacto">Contacto</a>
-      </div>
-
-      <main>
-        <section class="games-hero" id="videojuegos">
-          <div class="games-backdrop" aria-hidden="true"></div>
-          <div class="games-pattern" aria-hidden="true"></div>
-
-          <div class="games-hero-content">
-            <figure class="game-showcase">
-              <div class="game-circle">
-                <img class="game-art is-active" data-game-art="cursed" src="assets/cursed-mansion.png" alt="Mansión embrujada de Cursed bajo una luna llena" width="1672" height="941" />
-                <img class="game-art" data-game-art="bumper" src="assets/bumper-balls.png" alt="Personajes y logo de Bumper Balls" width="460" height="215" aria-hidden="true" />
-              </div>
-              <figcaption id="game-caption">Cursed</figcaption>
-            </figure>
-
-            <div class="games-copy">
-              <p class="eyebrow">NUESTROS JUEGOS PRINCIPALES</p>
-              <div class="game-details" id="game-details" aria-live="polite" aria-atomic="true">
-                <p class="game-status">EN DESARROLLO</p>
-                <h1 id="game-title">Cursed</h1>
-                <p class="hero-description" id="game-description">Un mundo extraño está despertando.</p>
-              </div>
-
-              <div class="game-selector" role="group" aria-label="Seleccionar videojuego">
-                <button class="game-choice is-active" type="button" data-game="cursed" aria-pressed="true" aria-controls="game-details" aria-label="Seleccionar Cursed">
-                  <span class="game-choice-icon"><img src="assets/cursed-mansion.png" alt="" /></span>
-                  <span class="game-choice-name">Cursed</span>
-                </button>
-                <button class="game-choice" type="button" data-game="bumper" aria-pressed="false" aria-controls="game-details" aria-label="Seleccionar Bumper Balls">
-                  <span class="game-choice-icon"><img src="assets/bumper-balls.png" alt="" /></span>
-                  <span class="game-choice-name">Bumper Balls</span>
-                </button>
-              </div>
+      <main class="catalog" id="videojuegos">
+        <h1 class="sr-only">Los videojuegos de Xetup</h1>
+        <div class="game-cards" id="game-cards" role="region" aria-label="Catálogo de videojuegos" tabindex="0">
+          <article class="game-card" aria-labelledby="cursed-title">
+            <div class="game-cover landscape-cover cursed-cover">
+              <img src="assets/cursed-mansion.png" alt="Mansión embrujada de Cursed bajo una luna llena" width="1672" height="941" decoding="async" />
             </div>
-          </div>
-
-          <div class="hero-scroll">
-            <span>SCROLL PARA DESCUBRIR MÁS JUEGOS</span>
-            <a href="#mas-juegos" aria-label="Bajar a la sección de más juegos"><span></span></a>
-          </div>
-        </section>
-
-        <section class="more-games-section" id="mas-juegos" aria-label="Catálogo de juegos web">
-          <div class="more-games-pattern" aria-hidden="true"></div>
-          <div class="more-games-content">
-            <div class="small-games-list">
-              <article class="small-game-card reveal" aria-labelledby="casting-title">
-                <div class="small-game-preview">
-                  <img src="assets/casting-cover.webp" alt="Portada de Casting para ser Mujer: protagonista con escopeta en un rodaje caótico, desarrollado por Xetup y producido por GB Films" width="1024" height="1536" loading="lazy" decoding="async" />
-                </div>
-                <div class="small-game-copy">
-                  <p class="small-game-status">DISPONIBLE · NAVEGADOR</p>
-                  <h3 id="casting-title">Casting<br />para ser Mujer</h3>
-                  <p class="small-game-description">Sobreviví a un casting caótico. Acción lateral, tres tomas y un jefe final.</p>
-                  <a class="small-game-play" href="https://casting-gb-films.web.app/" target="_blank" rel="noopener noreferrer" aria-label="Jugar Casting para ser Mujer (se abre en otra pestaña)">Jugar ahora <span aria-hidden="true">↗</span></a>
-                </div>
-              </article>
-              <article class="small-game-card reveal" aria-labelledby="neon-title">
-                <div class="small-game-preview">
-                  <img src="assets/neon-run-cover.svg" alt="Portada de ejemplo de Neon Run: una ruta de luz en una ciudad futurista" width="480" height="720" loading="lazy" decoding="async" />
-                </div>
-                <div class="small-game-copy">
-                  <p class="small-game-status is-concept">CONCEPTO · EJEMPLO</p>
-                  <h3 id="neon-title">Neon Run</h3>
-                  <p class="small-game-description">Esquivá obstáculos y seguí el pulso de una ciudad que nunca se apaga.</p>
-                  <button class="small-game-play" type="button" disabled>Demo próximamente</button>
-                </div>
-              </article>
-              <article class="small-game-card reveal" aria-labelledby="orbit-title">
-                <div class="small-game-preview">
-                  <img src="assets/orbita-cover.svg" alt="Portada de ejemplo de Órbita: un pequeño planeta rodeado de anillos y estrellas" width="480" height="720" loading="lazy" decoding="async" />
-                </div>
-                <div class="small-game-copy">
-                  <p class="small-game-status is-concept">CONCEPTO · EJEMPLO</p>
-                  <h3 id="orbit-title">Órbita</h3>
-                  <p class="small-game-description">Saltá de planeta en planeta. Un solo toque, el momento justo y un nuevo destino.</p>
-                  <button class="small-game-play" type="button" disabled>Demo próximamente</button>
-                </div>
-              </article>
-              <article class="small-game-card reveal" aria-labelledby="pixel-title">
-                <div class="small-game-preview">
-                  <img src="assets/pixel-match-cover.svg" alt="Portada de ejemplo de Pixel Match: fichas de colores con símbolos pixelados" width="480" height="720" loading="lazy" decoding="async" />
-                </div>
-                <div class="small-game-copy">
-                  <p class="small-game-status is-concept">CONCEPTO · EJEMPLO</p>
-                  <h3 id="pixel-title">Pixel Match</h3>
-                  <p class="small-game-description">Encontrá las parejas, encadená aciertos y poné a prueba tu memoria.</p>
-                  <button class="small-game-play" type="button" disabled>Demo próximamente</button>
-                </div>
-              </article>
+            <div class="game-copy">
+              <p class="game-status">EN DESARROLLO</p>
+              <h2 id="cursed-title">Cursed</h2>
+              <p class="game-description">Un mundo extraño está despertando.</p>
+              <button class="game-play" type="button" disabled>Próximamente</button>
             </div>
-          </div>
-        </section>
+          </article>
+          <article class="game-card" aria-labelledby="bumper-title">
+            <div class="game-cover landscape-cover bumper-cover">
+              <img src="assets/bumper-balls.png" alt="Personajes y logo de Bumper Balls" width="460" height="215" decoding="async" />
+            </div>
+            <div class="game-copy">
+              <p class="game-status">EN DESARROLLO</p>
+              <h2 id="bumper-title">Bumper Balls</h2>
+              <p class="game-description">Competencia, rebotes y caos controlado.</p>
+              <button class="game-play" type="button" disabled>Próximamente</button>
+            </div>
+          </article>
+          <article class="game-card" aria-labelledby="casting-title">
+            <div class="game-cover">
+              <img src="assets/casting-cover.webp" alt="Portada completa de Casting para ser Mujer, desarrollado por Xetup y producido por GB Films" width="1024" height="1536" decoding="async" />
+            </div>
+            <div class="game-copy">
+              <p class="game-status is-available">DISPONIBLE · NAVEGADOR</p>
+              <h2 id="casting-title">Casting<br />para ser Mujer</h2>
+              <p class="game-description">Sobreviví a un casting caótico. Acción lateral, tres tomas y un jefe final.</p>
+              <a class="game-play" href="https://casting-gb-films.web.app/" target="_blank" rel="noopener noreferrer" aria-label="Jugar Casting para ser Mujer (se abre en otra pestaña)">Jugar ahora <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="game-card is-placeholder" aria-labelledby="nok-title">
+            <div class="game-cover placeholder-cover" aria-label="Portada de NOK pendiente">
+              <img src="assets/xetup-isotipo.png" alt="" width="1554" height="1056" />
+              <span aria-hidden="true">04</span>
+            </div>
+            <div class="game-copy">
+              <p class="game-status">PORTADA POR CONFIRMAR</p>
+              <h2 id="nok-title">NOK</h2>
+              <p class="game-description">Descripción por confirmar.</p>
+              <button class="game-play" type="button" disabled>Próximamente</button>
+            </div>
+          </article>
+          <article class="game-card is-placeholder" aria-labelledby="norberto-title">
+            <div class="game-cover placeholder-cover" aria-label="Portada de El Conejo Norberto pendiente">
+              <img src="assets/xetup-isotipo.png" alt="" width="1554" height="1056" />
+              <span aria-hidden="true">05</span>
+            </div>
+            <div class="game-copy">
+              <p class="game-status">PORTADA POR CONFIRMAR</p>
+              <h2 id="norberto-title">El Conejo<br />Norberto</h2>
+              <p class="game-description">Descripción por confirmar.</p>
+              <button class="game-play" type="button" disabled>Próximamente</button>
+            </div>
+          </article>
+        </div>
+        <div class="catalog-controls" aria-label="Recorrer el catálogo">
+          <button type="button" class="catalog-arrow" data-direction="previous" aria-controls="game-cards" aria-label="Juego anterior">←</button>
+          <span class="catalog-position" aria-live="polite" aria-atomic="true">1 / 5</span>
+          <button type="button" class="catalog-arrow" data-direction="next" aria-controls="game-cards" aria-label="Juego siguiente">→</button>
+        </div>
       </main>
 
-      <footer class="site-footer" id="contacto">
+      <footer class="site-footer">
         <span>© <span id="year"></span> XETUP</span>
         <span>VIDEOJUEGOS</span>
-        <a href="mailto:hola@xetup.com">hola@xetup.com</a>
       </footer>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
