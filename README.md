@@ -2,6 +2,8 @@
 
 Una sola pantalla para los cinco videojuegos de Xetup: Cursed, Bumper Balls, Casting para ser Mujer, NOK y BUNNER (El Conejo Norberto). Todas las tarjetas aparecen juntas sobre el fondo azul en escritorio; en pantallas más pequeñas se recorren horizontalmente con gestos, botones o teclado. No hay portada circular, sección inferior, juegos ficticios ni sección de software.
 
+En móviles de hasta 600 px, cada tarjeta ocupa el 64 % del ancho de pantalla, con un máximo de 260 px y 12 px entre tarjetas. Así se ve una tarjeta completa y una parte amplia de la siguiente desde el inicio. Los títulos y márgenes interiores son más compactos; las portadas conservan la proporción 9:16 y el carrusel mantiene sus gestos y controles.
+
 Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada final de CASTING/portada-casting-v6.png, con los logos oficiales. Todas las portadas llenan bloques de proporción 9:16 con `object-fit: cover` y recorte centrado, sin franjas ni márgenes interiores. NOK usa la portada entregada por el usuario en `assets/nok-cover.png`. No se inventan enlaces de juego ni disponibilidad.
 
 NOK tiene como eslogan «Tu vida en modo juego». Su concepto es un simulador personalizado que recrea y gamifica la vida cotidiana de forma divertida e interactiva: reúne información personal, tareas, finanzas y metas en un solo lugar para ayudar a evitar la procrastinación y avanzar día a día. Ese mundo también puede incluir mascotas, pareja, casa y trabajo. La tarjeta resume el concepto en «Tu vida en modo juego. Organizá tareas, finanzas y metas en tu propio mundo». Sigue marcado como próximo lanzamiento, sin afirmar que estas funciones estén ya disponibles.

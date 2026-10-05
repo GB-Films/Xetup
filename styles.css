@@ -64,10 +64,10 @@ a:focus-visible, button:focus-visible, .game-cards:focus-visible { outline: 2px 
 @media (max-width: 600px) {
   .site-header { padding: 18px 20px; }
   .catalog { gap: 12px; padding-top: 8px; padding-bottom: 8px; }
-  .game-cards { gap: 16px; padding-right: 20px; padding-left: 20px; scroll-padding-inline: 20px; }
-  .game-card { flex-basis: min(82vw, 320px); }
-  .game-copy { padding: 16px; }
-  .game-copy h2 { min-height: 2.25em; font-size: 23px; margin-bottom: 10px; }
+  .game-cards { gap: 12px; padding-right: 20px; padding-left: 20px; scroll-padding-inline: 20px; }
+  .game-card { flex-basis: min(64vw, 260px); }
+  .game-copy { padding: 14px; }
+  .game-copy h2 { min-height: 2.25em; font-size: clamp(19px, 5vw, 21px); margin-bottom: 10px; }
   .game-description { min-height: 3em; margin-bottom: 14px; font-size: 13px; }
   .contact-link { font-size: 10px; }
   .site-footer { padding-top: 10px; padding-bottom: 12px; font-size: 8px; }
