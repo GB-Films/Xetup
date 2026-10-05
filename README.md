@@ -41,3 +41,5 @@ Versión web v5: menú principal con selección de modo, personaje y récords; a
 Versión web v6: indicadores compactos de zanahorias, vidas y supersalto arriba a la izquierda; sin nombre ni etiqueta día/noche en la partida.
 
 Versión web v7: terreno y arbustos cercanos con texturas de maqueta 3D, relieve y sombras, adaptados a día/noche.
+
+Versión web v8: piso más ancho, separado del borde frontal; plantas y flores variadas y espaciadas en lugar de la fila densa de arbustos.
