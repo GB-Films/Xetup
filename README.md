@@ -45,3 +45,5 @@ Versión web v7: terreno y arbustos cercanos con texturas de maqueta 3D, relieve
 Versión web v8: piso más ancho, separado del borde frontal; plantas y flores variadas y espaciadas en lugar de la fila densa de arbustos.
 
 Versión web v9: recupera el terreno y los arbustos originales, con un ensanche pequeño de la cara superior para apoyar correctamente las patas y las piedras. Flores y helechos decoran los arbustos. Toda la vegetación cercana se desplaza a la misma velocidad que el piso.
+
+Versión web v10: pequeñas matas de hojas y césped cruzan la unión entre arbustos y piso con alturas y tamaños variados. Rompen el corte recto y se desplazan junto con el terreno; el ancho del camino se conserva.
