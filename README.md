@@ -37,3 +37,5 @@ La versión web de BUNNER se compiló con `tsc --noEmit` y `vite build --base ./
 Actualización v4: nueva portada 3D en assets/bunner-cover-v3.png; selector persistente de Norberto y Filiberta; al perder, solo Volver a jugar inicia otra partida. El botón de trofeo abre los récords globales.
 
 Versión web v5: menú principal con selección de modo, personaje y récords; aventura de 10 niveles en preparación y accesos desde la pantalla de derrota.
+
+Versión web v6: indicadores compactos de zanahorias, vidas y supersalto arriba a la izquierda; sin nombre ni etiqueta día/noche en la partida.
