@@ -6,7 +6,7 @@ Casting mantiene su enlace a https://casting-gb-films.web.app/ y su portada fina
 
 NOK tiene como eslogan «Tu vida en modo juego». Su concepto es un simulador personalizado que recrea y gamifica la vida cotidiana de forma divertida e interactiva: reúne información personal, tareas, finanzas y metas en un solo lugar para ayudar a evitar la procrastinación y avanzar día a día. Ese mundo también puede incluir mascotas, pareja, casa y trabajo. La tarjeta resume el concepto en «Tu vida en modo juego. Organizá tareas, finanzas y metas en tu propio mundo». Sigue marcado como próximo lanzamiento, sin afirmar que estas funciones estén ya disponibles.
 
-BUNNER es el juego del Conejo Norberto del repositorio GB-Films/BUNNER, no un sexto juego. Su portada vertical `assets/bunner-cover-v2.png` (1024 × 1536) fue generada con la herramienta integrada usando el personaje y el bosque originales del proyecto como referencias. La segunda versión deja margen lateral al título para el recorte 9:16. Los prompts y las referencias se conservan en `assets/bunner-cover-v1-prompt.txt` y `assets/bunner-cover-v2-prompt.txt`. La descripción refleja el juego real: saltar obstáculos y recoger zanahorias. El botón sigue deshabilitado porque https://gb-films.github.io/BUNNER/ devolvía 404 al comprobarlo el 4 de octubre de 2026; activar el enlace solo después de verificar una publicación pública operativa.
+BUNNER es el juego del Conejo Norberto del repositorio GB-Films/BUNNER, no un sexto juego. Su portada vertical `assets/bunner-cover-v2.png` (1024 × 1536) fue generada con la herramienta integrada usando el personaje y el bosque originales del proyecto como referencias. La segunda versión deja margen lateral al título para el recorte 9:16. Los prompts y las referencias se conservan en `assets/bunner-cover-v1-prompt.txt` y `assets/bunner-cover-v2-prompt.txt`. La descripción refleja el juego real: saltar obstáculos y recoger zanahorias. El botón «Jugar ahora» abre el juego alojado en `bunner/`, dentro de este mismo sitio.
 
 El favicon conserva el isotipo original blanco sobre un fondo oscuro.
 
@@ -20,6 +20,14 @@ Repositorio: https://github.com/GB-Films/Xetup
 
 La publicación usa GitHub Pages. En **Settings → Pages → Build and deployment → Source**, seleccionar **GitHub Actions**. Cada actualización de `main` publica automáticamente la página.
 
-El flujo incluye únicamente `index.html`, `styles.css`, `script.js` y la carpeta `assets`. Las rutas de los recursos son relativas, compatibles con la ruta del proyecto en GitHub Pages.
+El flujo incluye `index.html`, `styles.css`, `script.js` y la carpeta `assets`, y extrae la versión web compilada de `assets/bunner-web-v1.zip` en `_site/bunner/`. El paquete contiene solo HTML, CSS, JavaScript de navegador y recursos gráficos públicos del juego, no el repositorio de desarrollo, archivos de entorno ni reglas de la base de datos. Las rutas de los recursos son relativas, compatibles con GitHub Pages y un dominio propio.
 
 Página pública: https://gb-films.github.io/Xetup/
+
+Juego público: https://gb-films.github.io/Xetup/bunner/
+
+## Dominio propio
+
+Dominio comprado por el usuario: `xetup.com.ar`, en NIC Argentina. La dirección prevista es `https://xetup.com.ar/` para el catálogo y `https://xetup.com.ar/bunner/` para BUNNER. El enlace relativo `bunner/` no necesita cambiar al conectar el dominio. La configuración DNS y el dominio personalizado de GitHub Pages siguen pendientes; no se redirige la página actual a un dominio que aún no resuelve.
+
+La versión web de BUNNER se compiló con `tsc --noEmit` y `vite build --base ./` para que pueda alojarse bajo cualquiera de esas rutas. La carpeta local `bunner/` es una copia de prueba ignorada por Git; la publicación utiliza el ZIP versionado. Para actualizar el juego, compilar una nueva versión del repo BUNNER con base relativa, empaquetar solo el contenido de la salida compilada y actualizar el archivo ZIP usado por el flujo. Esta integración no cambia la visibilidad del repo BUNNER ni los permisos de Firestore. La tabla mundial sigue dependiendo de la configuración existente del juego.
