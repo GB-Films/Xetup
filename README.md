@@ -35,3 +35,5 @@ Dominio comprado por el usuario: `xetup.com.ar`, en NIC Argentina, delegado a Cl
 La versión web de BUNNER se compiló con `tsc --noEmit` y `vite build --base ./` para que pueda alojarse bajo cualquiera de esas rutas. La carpeta local `bunner/` es una copia de prueba ignorada por Git; la publicación utiliza el ZIP versionado. Para actualizar el juego, compilar una nueva versión del repo BUNNER con base relativa, empaquetar solo el contenido de la salida compilada y actualizar el archivo ZIP usado por el flujo. Esta integración no cambia la visibilidad del repo BUNNER ni los permisos de Firestore. La tabla mundial sigue dependiendo de la configuración existente del juego.
 
 Actualización v4: nueva portada 3D en assets/bunner-cover-v3.png; selector persistente de Norberto y Filiberta; al perder, solo Volver a jugar inicia otra partida. El botón de trofeo abre los récords globales.
+
+Versión web v5: menú principal con selección de modo, personaje y récords; aventura de 10 niveles en preparación y accesos desde la pantalla de derrota.
