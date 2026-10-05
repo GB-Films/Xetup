@@ -43,3 +43,5 @@ Versión web v6: indicadores compactos de zanahorias, vidas y supersalto arriba 
 Versión web v7: terreno y arbustos cercanos con texturas de maqueta 3D, relieve y sombras, adaptados a día/noche.
 
 Versión web v8: piso más ancho, separado del borde frontal; plantas y flores variadas y espaciadas en lugar de la fila densa de arbustos.
+
+Versión web v9: recupera el terreno y los arbustos originales, con un ensanche pequeño de la cara superior para apoyar correctamente las patas y las piedras. Flores y helechos decoran los arbustos. Toda la vegetación cercana se desplaza a la misma velocidad que el piso.
