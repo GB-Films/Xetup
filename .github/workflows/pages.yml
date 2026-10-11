@@ -29,9 +29,12 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html styles.css script.js _site/
-          cp -R assets _site/assets
+          mkdir -p _site/assets
+          # Release archives are build inputs, not public catalog assets.
+          tar -C assets --exclude='bunner-web-*.zip' -cf - . | tar -C _site/assets -xf -
           mkdir -p _site/bunner
           unzip -q assets/bunner-web-v27.zip -d _site/bunner
+          unzip -qo assets/bunner-web-v28-update.zip -d _site/bunner
       - name: Subir sitio
         uses: actions/upload-pages-artifact@v4
         with:
